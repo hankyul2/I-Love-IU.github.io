@@ -18,7 +18,7 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Main",
-					"documentation": "## Screen  \n*Problem*  \n+ GUI 형식으로 할지 아니면 프레임에 추가하는 식으로 할지 정해야됨\n\n## PoseSystem  \n*ToDo*  \n+ 시나리오별로 userInput받고 PoseEstimation, DB 함수 호출하는것 정하기\n\n## PoseEstimation  \n*ToDo*  \n+ PoseSystem에서 정한 시나리오에 맞춰서 내부 구현 생각하기\n+ Composition으로 갖는 부품들 대략적으로 attribute와 method 정하기\n\n## PoseDiff\n*ToDo*\n+ 인풋 전달해주는 방식(DB에서부터 PoseDiff)까지 정해주기\n+ FeedBackMessage 사용할 함수 정하고 그에 맞는 아웃풋 형식 정해주기\n\n",
+					"documentation": "## Screen  \n*Problem*  \n+ GUI 형식으로 할지 아니면 프레임에 추가하는 식으로 할지 정해야됨\n\n## PoseSystem  \n*ToDo*  \n+ 시나리오별로 userInput받고 PoseEstimation, DB 함수 호출하는것 정하기\n\n## PoseEstimation  \n*ToDo*  \n+ PoseSystem에서 정한 시나리오에 맞춰서 내부 구현 생각하기  \n+ Composition으로 갖는 부품들 대략적으로 attribute와 method 정하기  \n\n## PoseDiff\n*ToDo*  \n+ 인풋 전달해주는 방식(DB에서부터 PoseDiff)까지 정해주기  \n+ FeedBackMessage 사용할 함수 정하고 그에 맞는 아웃풋 형식 정해주기\n\n",
 					"defaultDiagram": true,
 					"ownedViews": [
 						{
@@ -6539,14 +6539,6 @@
 					]
 				},
 				{
-					"_type": "UMLUseCaseSubject",
-					"_id": "AAAAAAFsrEpcde9WhqE=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "PoseDifference"
-				},
-				{
 					"_type": "UMLClass",
 					"_id": "AAAAAAFsrTAL0APyqgQ=",
 					"_parent": {
@@ -8077,7 +8069,7 @@
 											"top": -256,
 											"width": 91.736328125,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from UseCase)"
 										},
 										{
 											"_type": "LabelView",
@@ -8257,7 +8249,7 @@
 											"top": 160,
 											"width": 91.736328125,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from UseCase)"
 										},
 										{
 											"_type": "LabelView",
@@ -8381,107 +8373,6 @@
 							}
 						},
 						{
-							"_type": "UMLUseCaseSubjectView",
-							"_id": "AAAAAAFsrr0ncfTues4=",
-							"_parent": {
-								"$ref": "AAAAAAFsrr0ncPTZFJ0="
-							},
-							"model": {
-								"$ref": "AAAAAAFsrEpcde9WhqE="
-							},
-							"subViews": [
-								{
-									"_type": "UMLNameCompartmentView",
-									"_id": "AAAAAAFsrr0ncfTvv3Q=",
-									"_parent": {
-										"$ref": "AAAAAAFsrr0ncfTues4="
-									},
-									"model": {
-										"$ref": "AAAAAAFsrEpcde9WhqE="
-									},
-									"subViews": [
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAFsrr0ncfTwuBY=",
-											"_parent": {
-												"$ref": "AAAAAAFsrr0ncfTvv3Q="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": -208,
-											"top": -96,
-											"height": 13
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAFsrr0ncfTxNXA=",
-											"_parent": {
-												"$ref": "AAAAAAFsrr0ncfTvv3Q="
-											},
-											"font": "Arial;13;1",
-											"left": 293,
-											"top": 31,
-											"width": 375,
-											"height": 13,
-											"text": "PoseDifference"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAFsrr0ncfTyqRI=",
-											"_parent": {
-												"$ref": "AAAAAAFsrr0ncfTvv3Q="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": -208,
-											"top": -96,
-											"width": 91.736328125,
-											"height": 13,
-											"text": "(from UseCase)"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAFsrr0ncfTz5/A=",
-											"_parent": {
-												"$ref": "AAAAAAFsrr0ncfTvv3Q="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": -208,
-											"top": -96,
-											"height": 13,
-											"horizontalAlignment": 1
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 288,
-									"top": 24,
-									"width": 385,
-									"height": 25,
-									"stereotypeLabel": {
-										"$ref": "AAAAAAFsrr0ncfTwuBY="
-									},
-									"nameLabel": {
-										"$ref": "AAAAAAFsrr0ncfTxNXA="
-									},
-									"namespaceLabel": {
-										"$ref": "AAAAAAFsrr0ncfTyqRI="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAFsrr0ncfTz5/A="
-									}
-								}
-							],
-							"font": "Arial;13;0",
-							"left": 288,
-							"top": 24,
-							"width": 385,
-							"height": 697,
-							"nameCompartment": {
-								"$ref": "AAAAAAFsrr0ncfTvv3Q="
-							}
-						},
-						{
 							"_type": "UMLUseCaseView",
 							"_id": "AAAAAAFsrr0ncfT/tSs=",
 							"_parent": {
@@ -8538,7 +8429,7 @@
 											"top": -816,
 											"width": 91.736328125,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from UseCase)"
 										},
 										{
 											"_type": "LabelView",
@@ -8737,7 +8628,7 @@
 											"top": -568,
 											"width": 91.736328125,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from UseCase)"
 										},
 										{
 											"_type": "LabelView",
@@ -8936,7 +8827,7 @@
 											"top": -366,
 											"width": 91.736328125,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from UseCase)"
 										},
 										{
 											"_type": "LabelView",
@@ -9135,7 +9026,7 @@
 											"top": -164,
 											"width": 91.736328125,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from UseCase)"
 										},
 										{
 											"_type": "LabelView",
@@ -9334,7 +9225,7 @@
 											"top": 86,
 											"width": 91.736328125,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from UseCase)"
 										},
 										{
 											"_type": "LabelView",
@@ -11410,9 +11301,9 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"width": 80.9072265625,
+											"width": 91.736328125,
 											"height": 13,
-											"text": "(from Model1)"
+											"text": "(from UseCase)"
 										},
 										{
 											"_type": "LabelView",
