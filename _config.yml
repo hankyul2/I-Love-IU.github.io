@@ -90,6 +90,14 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
 
 # Site Author
 author:
